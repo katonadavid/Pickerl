@@ -1,0 +1,24 @@
+.tile {
+  height: 10em;
+  width: 10em;
+  background-color: maroon;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1em;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+
+  .icon {
+    font-size: 2.5em;
+  }
+
+  .title {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+}

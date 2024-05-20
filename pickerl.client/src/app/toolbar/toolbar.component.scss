@@ -1,0 +1,13 @@
+.toolbar {
+  height: 48px;
+  background-color: maroon;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0em 1em;
+
+  .app-title {
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,9 @@
+<div class="tiles">
+  @for(tile of tiles; track tile.title) {
+  <app-tile
+    [routerLink]="tile.link"
+    [title]="tile.title"
+    [icon]="tile.icon"
+  ></app-tile>
+  }
+</div>
